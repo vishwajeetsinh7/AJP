@@ -26,8 +26,8 @@ public class ajp1student {
             String query = "insert into student values(?,?)";
 
             PreparedStatement ps = con.prepareStatement(query);
-            ps.setString(1, "viswsfds");
-            ps.setString(2 ,"1");
+            ps.setString(1, "vishwajeetsinh rathod");
+            ps.setString(2 ,"37");
 
             int i = ps.executeUpdate();
             System.out.println("row updated" + i);
@@ -35,7 +35,7 @@ public class ajp1student {
             ps.close();
             con.close();
 
-            
+
 
 
         }catch (Exception e){
